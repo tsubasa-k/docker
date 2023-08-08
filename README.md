@@ -2,6 +2,9 @@
 利用docker-compose建立多個容器，透過執行docker-compose.yml來實現，以下示範建立兩個anaconda容器，分別為anaconda1和anaconda2
 <img width="356" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/5146708f-6220-410e-bf07-7508420a1cca">
 
+docker-compose.yml裡的內容:
+<img width="430" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/8b1d8133-df6a-40ee-bc11-9c675b66e577">
+
 
 輸入指令docker ps -a 以檢查當前所有已經建立的容器，包括開啟或關閉的，圖中NAMES的anaconda1和anaconda2是剛建立好的容器，目前狀態STATUS為開啟狀態(Up，Exited為關閉狀態)
 
