@@ -32,6 +32,7 @@ makefile內容:
 並透過容器介面可以存取images裡的圖片可以進行刪除等動作
 
 <img width="478" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/673d138c-0b24-49a6-95ce-d49ab31f662f">
+
 移除後:
 <img width="527" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/1b1d044b-4842-4281-a338-ded337c49ef9">
 
