@@ -3,6 +3,7 @@
 <img width="356" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/5146708f-6220-410e-bf07-7508420a1cca">
 
 docker-compose.yml裡的內容:
+
 <img width="430" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/8b1d8133-df6a-40ee-bc11-9c675b66e577">
 
 
