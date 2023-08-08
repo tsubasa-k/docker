@@ -4,6 +4,7 @@
 
 
 輸入指令docker ps -a 以檢查當前所有已經建立的容器，包括開啟或關閉的，圖中NAMES的anaconda1和anaconda2是剛建立好的容器，目前狀態STATUS為開啟狀態(Up，Exited為關閉狀態)
+
 <img width="583" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/a410e390-c16e-49fb-812e-f7ade1375e08">
 
 
