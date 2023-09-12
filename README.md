@@ -32,7 +32,10 @@ makefile內容:
 <img width="359" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/c14cbde5-e5b5-470c-b5e1-cca6672130a1">
 
 
-透過執行makefile來選擇執行哪項檢測功能，這裡以執行function2來做示範(之後可以改成需要的功能檢測名稱，如:DataPoisoning_Test、EvasionAttack_Test等)
+透過執行makefile來選擇執行哪項檢測功能，這裡先輸入make查詢要執行的檢測function名稱，並執行function2來做示範(之後可以改成需要的功能檢測名稱，如:DataPoisoning_Test、EvasionAttack_Test等)
+<img width="375" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/4c0dac80-b850-442f-8976-8d9ae826a138">
+
+
 ### 這裡以feature_collection_attack來做示範
 執行指令python feature_col.py < input3
 
