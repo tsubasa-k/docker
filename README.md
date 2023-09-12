@@ -13,11 +13,13 @@ docker-compose.yml裡的內容:
 
 <img width="583" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/a410e390-c16e-49fb-812e-f7ade1375e08">
 
-輸入docker-compose stop關閉容器，而這裡發現有容器無法關閉的情況。解決方式是發現linux中有一個安全模塊叫做AppArmor的，會對docker的權限產生影響，所以我們簡單地把AppArmor模塊停掉或刪掉，就可以刪除docker container了。
+輸入docker-compose stop關閉容器，而這裡發現有容器無法關閉的情況。使用恨多方式，甚至是強制停止或刪除都不行
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/78f36f4c-f1d0-44a8-a41e-c24ecb35bd44)
+![image](https://github.com/tsubasa-k/docker/assets/61736148/b6b7f0d9-acfb-4a52-a63f-5807b4429cc8)
 
+解決方式是發現linux中有一個安全模塊叫做AppArmor的，會對docker的權限產生影響，所以我們簡單地把AppArmor模塊停掉或刪掉，就可以刪除docker container了。
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/995e67f1-3351-40f7-871b-9d711c21c28b)
-
+解決後: 可以停止容器
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/8cb48631-c4fa-41bb-8223-14166851c0b9)
 
 
