@@ -33,6 +33,8 @@ makefile內容:
 
 
 透過執行makefile來選擇執行哪項檢測功能，這裡先輸入make查詢要執行的檢測function名稱，並執行function2來做示範(之後可以改成需要的功能檢測名稱，如:DataPoisoning_Test、EvasionAttack_Test等)
+<img width="375" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/aad8d727-6db9-457a-9311-c83e4ea0111b">
+
 <img width="375" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/4c0dac80-b850-442f-8976-8d9ae826a138">
 
 
