@@ -9,6 +9,7 @@
 docker-compose.yml裡的內容:
 
 <img width="430" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/8b1d8133-df6a-40ee-bc11-9c675b66e577">
+<img width="569" alt="螢幕擷取畫面 2023-09-16 133416" src="https://github.com/tsubasa-k/docker/assets/61736148/c9dbcc83-9728-4f45-8cc9-32207eeee6f5">
 
 
 輸入指令docker ps -a 以檢查當前所有已經建立的容器，包括開啟或關閉的，圖中NAMES的anaconda1到anaconda5是剛建立好的容器，目前狀態STATUS為開啟狀態(Up，Exited為關閉狀態)
