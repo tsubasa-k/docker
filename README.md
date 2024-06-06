@@ -8,13 +8,12 @@
 
 docker-compose.yml裡的內容:
 
-<img width="430" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/8b1d8133-df6a-40ee-bc11-9c675b66e577">
 <img width="569" alt="螢幕擷取畫面 2023-09-16 133416" src="https://github.com/tsubasa-k/docker/assets/61736148/c9dbcc83-9728-4f45-8cc9-32207eeee6f5">
 
 
 輸入指令docker ps -a 以檢查當前所有已經建立的容器，包括開啟或關閉的，圖中NAMES的anaconda1到anaconda5是剛建立好的容器，目前狀態STATUS為開啟狀態(Up，Exited為關閉狀態)
 
-![image](https://github.com/tsubasa-k/docker/assets/61736148/84ee4b6c-1d55-4e3a-ac35-cf9f749f66b7)
+<img width="588" alt="螢幕擷取畫面 2023-09-12 235610" src="https://github.com/tsubasa-k/docker/assets/61736148/9644a17d-49aa-462b-a7dd-9444f9359474">
 
 
 輸入docker-compose stop關閉容器，而這裡發現有容器無法關閉的情況。使用恨多方式，甚至是強制停止或刪除都不行
@@ -30,7 +29,7 @@ docker-compose.yml裡的內容:
 
 makefile內容:
 
-<img width="359" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/c14cbde5-e5b5-470c-b5e1-cca6672130a1">
+<img width="421" alt="螢幕擷取畫面 2023-09-16 134211" src="https://github.com/tsubasa-k/docker/assets/61736148/c2250c90-8776-43f1-9768-11f52b81651b">
 
 
 透過執行makefile來選擇執行哪項檢測功能，這裡先輸入make查詢要執行的檢測function名稱，並執行function2來做示範(之後可以改成需要的功能檢測名稱，如:DataPoisoning_Test、EvasionAttack_Test等)
