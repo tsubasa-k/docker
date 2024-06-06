@@ -27,6 +27,7 @@ docker-compose.yml裡的內容:
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/8cb48631-c4fa-41bb-8223-14166851c0b9)
 
 輸入docker-compose down可以移除所有已經建立好的容器
+
 <img width="317" alt="螢幕擷取畫面 2023-09-16 132443" src="https://github.com/tsubasa-k/docker/assets/61736148/625d78e6-8fb0-428e-ab9e-efca8ff0a5c7">
 
 
