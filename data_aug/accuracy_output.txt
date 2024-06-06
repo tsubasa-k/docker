@@ -1,0 +1,2 @@
+Accuracy before data_augumentation test examples: 60.22727272727273%
+Accuracy after data_augumentation test examples: 54.985119047619044%
