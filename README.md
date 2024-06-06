@@ -1,4 +1,5 @@
 # Architecture diagram of Security Test Paltform
+![螢幕擷取畫面 2023-09-16 204310](https://github.com/tsubasa-k/docker/assets/61736148/7003fdd1-b28d-4aee-a404-c083a27010e8)
 
 
 # docker installation and steps
@@ -88,7 +89,13 @@ makefile內容:
 
 
 
+
 <img width="280" alt="螢幕擷取畫面 2023-09-16 234329" src="https://github.com/tsubasa-k/docker/assets/61736148/0d185f86-9b04-4c7b-b714-71ff522423bc">
+
+
+Model Evaluation Before and After Tesing  - Feature Collision Attack
+![FeatureCollisionAttack_evaluation_scores](https://github.com/tsubasa-k/docker/assets/61736148/f6c7bc2b-bdda-4283-a858-40730017ea23)
+
 
 
 
