@@ -1,4 +1,7 @@
-# docker
+# Architecture diagram of Security Test Paltform
+
+
+# docker installation and steps
 利用docker-compose建立多個容器，透過執行docker-compose.yml來實現，以下示範建立五個anaconda容器，分別為anaconda1到anaconda5。
 輸入指令docker-compose build，這將使用你的 Dockerfile 來構建容器鏡像
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/7553c2aa-8839-47d8-962d-9d3913b54eb8)
@@ -55,7 +58,7 @@ makefile內容:
 <img width="441" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/04e09dc4-6201-4b24-877a-b86327385df5">
 <img width="437" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/66aa61a2-3d7a-4981-98d0-5d0808fc4374">
 
-
+### 容器操作
 並透過容器介面可以存取images裡的圖片可以進行刪除等動作
 
 <img width="478" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/673d138c-0b24-49a6-95ce-d49ab31f662f">
@@ -67,6 +70,22 @@ makefile內容:
 移除後images裡的圖片
 
 <img width="440" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/d368ae1a-c303-47a7-b2d8-f67890c15008">
+
+另外，有實作圖形化的介面(Portainer)來操作容器
+<img width="590" alt="螢幕擷取畫面 2023-09-16 234021" src="https://github.com/tsubasa-k/docker/assets/61736148/7328f5f0-6789-43eb-bbf0-1c95a7848151">
+<img width="593" alt="螢幕擷取畫面 2023-09-16 234300" src="https://github.com/tsubasa-k/docker/assets/61736148/b8b5c0b3-c224-4db5-8fdf-8d6035188380">
+
+### 成果展示
+
+生成的測試結果報告，以測試data augmentation為例:
+<img width="280" alt="螢幕擷取畫面 2023-09-16 234329" src="https://github.com/tsubasa-k/docker/assets/61736148/ee9b3626-1fa0-4d5d-95a7-bc3b0c80c0ec">
+
+另外、還可以將選擇的測試項目產生的結果報告合併，輸入Python3 merge_files.py進行合併
+<img width="382" alt="螢幕擷取畫面 2023-09-17 215216" src="https://github.com/tsubasa-k/docker/assets/61736148/80f0ab5a-79f6-4dc4-b4b3-bc238a04ba41">
+
+
+
+<img width="280" alt="螢幕擷取畫面 2023-09-16 234329" src="https://github.com/tsubasa-k/docker/assets/61736148/0d185f86-9b04-4c7b-b714-71ff522423bc">
 
 
 
