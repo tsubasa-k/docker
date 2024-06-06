@@ -22,9 +22,12 @@ docker-compose.yml裡的內容:
 
 解決方式: 原因是發現linux中有一個安全模塊叫做AppArmor的，會對docker的權限產生影響，所以我們簡單地把AppArmor模塊停掉或刪掉，就可以刪除docker container了。
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/995e67f1-3351-40f7-871b-9d711c21c28b)
+
 解決後: 可以停止容器
 ![image](https://github.com/tsubasa-k/docker/assets/61736148/8cb48631-c4fa-41bb-8223-14166851c0b9)
 
+輸入docker-compose down可以移除所有已經建立好的容器
+<img width="317" alt="螢幕擷取畫面 2023-09-16 132443" src="https://github.com/tsubasa-k/docker/assets/61736148/625d78e6-8fb0-428e-ab9e-efca8ff0a5c7">
 
 
 makefile內容:
