@@ -72,15 +72,18 @@ makefile內容:
 <img width="440" alt="image" src="https://github.com/tsubasa-k/docker/assets/61736148/d368ae1a-c303-47a7-b2d8-f67890c15008">
 
 另外，有實作圖形化的介面(Portainer)來操作容器
+
 <img width="590" alt="螢幕擷取畫面 2023-09-16 234021" src="https://github.com/tsubasa-k/docker/assets/61736148/7328f5f0-6789-43eb-bbf0-1c95a7848151">
 <img width="593" alt="螢幕擷取畫面 2023-09-16 234300" src="https://github.com/tsubasa-k/docker/assets/61736148/b8b5c0b3-c224-4db5-8fdf-8d6035188380">
 
 ### 成果展示
 
 生成的測試結果報告，以測試data augmentation為例:
+
 <img width="280" alt="螢幕擷取畫面 2023-09-16 234329" src="https://github.com/tsubasa-k/docker/assets/61736148/ee9b3626-1fa0-4d5d-95a7-bc3b0c80c0ec">
 
 另外、還可以將選擇的測試項目產生的結果報告合併，輸入Python3 merge_files.py進行合併
+
 <img width="382" alt="螢幕擷取畫面 2023-09-17 215216" src="https://github.com/tsubasa-k/docker/assets/61736148/80f0ab5a-79f6-4dc4-b4b3-bc238a04ba41">
 
 
