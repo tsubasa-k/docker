@@ -1,0 +1,6 @@
+Accuracy before evasion attack test examples: 60.22727272727273%
+Accuracy after evasion attack test examples: 59.375%
+Accuracy after mean defense test examples: 57.67045454545454%
+Accuracy after median defense test examples: 59.09090909090909%
+Accuracy after gaussian defense test examples: 59.09090909090909%
+Accuracy after bilateral defense test examples: 59.375%
